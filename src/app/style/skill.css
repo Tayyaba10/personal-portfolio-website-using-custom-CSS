@@ -1,0 +1,52 @@
+.skill-section{
+ background-color: rgb(206, 238, 143);   
+ height: 700px;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    text-align:justify;
+   
+}
+.child-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    font-size:30px;
+}
+.skill h2{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.skill p{
+    color:black;
+    width: 600px;
+    font-size: 18px;
+    margin: 8px;
+}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+.child-icon{
+    display: flex; 
+    flex-wrap: wrap ;
+    gap:10px;
+    justify-content: center;
+    width: 60%;
+    
+}

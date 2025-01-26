@@ -1,0 +1,42 @@
+.nav{    
+    display: flex;
+    gap:40px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type:none;
+    width:full;
+    background-color: olive;
+    
+}
+
+.nav-link{
+    display: flex;
+    gap:40px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right:10px;
+    list-style-type:none;
+    
+}
+.nav .logo span{
+    font-family: Inter;
+    font-size:36.65px;
+    font-weight: regular;
+    color:white;
+
+}
+.nav-link li{
+    text-decoration: none;
+    font-family: Inter;
+    font-size:20px;
+    font-weight: 500;
+    color:blanchedalmond;
+    transition:all .5s ease-in-out;
+    
+}
+
+.nav a:hover{
+    color:greenyellow;
+    transform: scale(1.5);
+}
+
